@@ -1,10 +1,12 @@
 :root {
   --bg-primary: #322D50;
-  --bg-secondary: #08062E;
+  --bg-secondary: rgba(8, 6, 46, 0.2);
   --font-primary: #C4C3D8;
 
   --primary-font-family: 'Handlee', cursive;
   --secondary-font-family: 'Comic Neue', cursive;
+
+  --max-width: 1120px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,7 +17,9 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+}
 
+* {
   box-sizing: border-box;
 }
 
