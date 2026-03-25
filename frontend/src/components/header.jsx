@@ -5,7 +5,7 @@ import styles from "@styles/header.module.css";
 function Header() {
     return (
         <header id={styles.header} aria-label="Main navigation">
-            <nav id={styles.navbar}>
+            <nav id={styles.navbar} className="glass_bg">
                 <Link to="/" id={styles.logo_link}>
                     <img src="/assets/logo.svg" alt="Mas Mikaela Logo" />
                 </Link>

@@ -13,7 +13,7 @@ function About() {
                     <h2>My Skills</h2>
                     <ul id={styles.skills_list}>
                         {skills.map((skill) => (
-                            <li key={skill.name} className={styles.skill_item}>
+                            <li key={skill.name} className={`${styles.skill_item} glass_bg`}>
                                 <img src={skill.img} alt={skill.name} />
                                 <p>{skill.name}</p>
                             </li>
@@ -26,7 +26,7 @@ function About() {
                     <h2>My Experience</h2>
                     <ul id={styles.experience_list}>
                         {experience.map((exp) => (
-                            <li key={exp.company} className={styles.experience_item}>
+                            <li key={exp.company} className={`${styles.experience_item} glass_bg`}>
                                 <h3 className={styles.experience_company}>{exp.company}</h3>
                                 <p className={styles.experience_title}>{exp.title}</p>
                                 <p className={styles.experience_period}>{exp.period}</p>
