@@ -7,6 +7,8 @@
   --secondary-font-family: 'Comic Neue', cursive;
 
   --max-width: 1120px;
+  --min-width: 400px;
+  --inline-padding: 2rem;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,7 +32,7 @@ body::before {
   position: fixed;
   inset: 0;
   background-image: url("assets/noise.png");
-  background-size: 64 px;
+  background-size: 64px;
   background-repeat: repeat;
   mix-blend-mode: overlay;
   /* try soft-light too */
@@ -70,8 +72,8 @@ li {
 }
 
 .glass_bg {
-  backdrop-filter: blur(10px) saturate(100%);
-  -webkit-backdrop-filter: blur(10px) saturate(100%);
+  /* backdrop-filter: blur(10px) saturate(100%);
+  -webkit-backdrop-filter: blur(10px) saturate(100%); */
   box-shadow: 0 4px 30px rgba(255, 255, 255, 0.05);
   background-color: var(--bg-secondary);
   border: 1px solid rgba(209, 213, 219, 0.2);
