@@ -45,6 +45,7 @@ body {
   background: var(--bg-primary);
   color: var(--font-primary);
   font-family: var(--primary-font-family);
+  overflow-x: hidden;
 }
 
 h1,
@@ -84,7 +85,7 @@ li {
   display: flex;
   flex-direction: column; 
   gap: 32px;
-  padding: 32px 16px;
+  padding: 32px var(--inline-padding);
 }
 
 .container {
