@@ -56,10 +56,15 @@
     color: var(--dark_50);
     text-decoration: none;
     transition: transform .2s ease;
+
+    padding: 12px 16px;
+    border-radius: 100vh;
 }
 
 .list_item a:hover {
-    transform: scale(1.15);
+    background: var(--font-primary);
+    color: var(--bg-primary);
+    font-weight: bold;
 }
 
 .burger {
@@ -109,8 +114,10 @@
         width: 50%;
         flex-flow: column nowrap;
         background-color: var(--bg-primary);
+        justify-content: start;
         transition: left 0.3s ease;
         border-right: 1.5px solid var(--dark);
+        padding-block: 3rem;
     }
 
     .overlay.active{
