@@ -6,7 +6,7 @@ function Navbar() {
     const [toggled, setToggled] = useState(false);
 
     return (
-        <nav id={styles.nav_container}>
+        <nav id={styles.nav_container} className='section'>
             <div id={styles.nav} data-toggled={toggled} className='glass_bg'>
                 <Link id={styles.logo_container} to="/">
                     <img id={styles.logo} src="assets/logo.svg" alt="Mikaela Olarte logo" />

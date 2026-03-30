@@ -4,11 +4,11 @@ import skills from "@data/skills.json";
 
 function About() {
     return (
-        <>
-            <section>
+        <div className="root_container">
+            <section className="section">
                 <div></div>
             </section>
-            <section id={styles.skills_section}>
+            <section id={styles.skills_section} className="section">
                 <div id={styles.skills_container}>
                     <h2>My Skills</h2>
                     <ul id={styles.skills_list}>
@@ -21,7 +21,7 @@ function About() {
                     </ul>
                 </div>
             </section>
-            <section id={styles.experience_section}>
+            <section id={styles.experience_section} className="section">
                 <div id={styles.experience_container}>
                     <h2>My Experience</h2>
                     <ul id={styles.experience_list}>
@@ -36,7 +36,7 @@ function About() {
                     </ul>
                 </div>
             </section>
-        </>
+        </div>
     );
 }
 

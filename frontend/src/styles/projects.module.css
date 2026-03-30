@@ -1,0 +1,16 @@
+
+#project_list img {
+    width: 100%;
+}
+
+#project_list a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--font-primary);
+}
+
+#project_list a:hover {
+    display: inline-block;
+    text-decoration: underline;
+    color: var(--font-primary);
+}

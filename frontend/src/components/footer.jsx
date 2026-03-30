@@ -16,17 +16,23 @@ function Footer() {
 
                 <ul id={styles.nav_list} aria-label="Primary">
                     <li className={styles.nav_item}>
-                        <Link to="/about"><img src={linkedinIcon} alt="LinkedIn" /></Link>
+                        <Link to="https://www.linkedin.com/in/mikaela-olarte/" target="_blank" rel="noopener noreferrer">
+                            <img src={linkedinIcon} alt="LinkedIn" />
+                        </Link>
                     </li>
                     <li className={styles.nav_item}>
-                        <Link to="/projects"><img src={instagramIcon} alt="Instagram" /></Link>
+                        <Link to="https://www.instagram.com/mas.mikaela/" target="_blank" rel="noopener noreferrer">
+                            <img src={instagramIcon} alt="Instagram" />
+                        </Link>
                     </li>
                     <li className={styles.nav_item}>
-                        <Link to="/projects"><img src={youtubeIcon} alt="YouTube" /></Link>
+                        <Link to="https://www.youtube.com/@masmikaela" target="_blank" rel="noopener noreferrer">
+                            <img src={youtubeIcon} alt="YouTube" />
+                        </Link>
                     </li>
                     <li className={styles.nav_item}>
                         <Link
-                            to="/mikaela_olarte_resume.pdf"
+                            to="mailto:masmikaelaolarte@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                         >

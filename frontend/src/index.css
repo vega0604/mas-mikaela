@@ -20,8 +20,17 @@ body,
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* \* {
+  outline: 1px solid red;
+} */
 
 * {
   box-sizing: border-box;
@@ -82,14 +91,13 @@ li {
 
 
 .section {
-  display: flex;
-  flex-direction: column; 
-  gap: 32px;
   padding: 32px var(--inline-padding);
-}
-
-.container {
   width: clamp(var(--min-width), 100%, var(--max-width));
   align-self: center;
-  gap: 1rem;
+}
+
+.root_container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }

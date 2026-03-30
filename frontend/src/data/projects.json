@@ -3,35 +3,35 @@
         "name": "A11yson",
         "tags": "Hackathon project • UX/UI • Cognitive-first Accessibility Engine • Gemini AI",
         "period": "2026",
-        "img": "#",
+        "img": "/assets/a11ysonprojects.svg",
         "link": "https://devpost.com/software/a11yson"
     },
     {
         "name": "Haptic Zone",
         "tags": "Interactive System • TouchDesigner • Proximity-Based Interaction • Audiovisual Feedback",
         "period": "2026",
-        "img": "#",
+        "img": "/assets/hapticzoneprojects.svg",
         "link": "/HapticZone.pdf"
     },
     {
         "name": "UX Patterns",
         "tags": "Case Study • UX/UI • Deceptive Patterns • E-commerce Experience • Information Design ",
         "period": "2026",
-        "img": "#",
+        "img": "/assets/carpeprojects.svg",
         "link": "/DeceptiveUXPatterns.pdf"
     },
     {
         "name": "A11YVERSE Branding",
         "tags": "UX/UI • Brand Guidelines • InDesign • Digital Design • Innovative Branding",
         "period": "2026",
-        "img": "#",
+        "img": "/assets/a11yverseprojects.svg",
         "link": "https://www.linkedin.com/in/mikaela-olarte/"
     },
     {
         "name": "HopScotch Circuit",
         "tags": "Physical Computing • UX/UI • Circuits • P5.js • Makey Makey • Interactive System",
         "period": "2026",
-        "img": "#",
+        "img": "/assets/hopscotchprojects.svg",
         "link": "/HopScotchCircuit.pdf"
     }
 ]
